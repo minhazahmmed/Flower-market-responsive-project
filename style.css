@@ -10,6 +10,7 @@ body{
 
 img{
     width:100%;
+   
 }
 .inter{
     font-family: Inter;
@@ -206,11 +207,7 @@ font-size: 22px;
     text-align: center;
     margin-bottom: 120px;
 }
-.section-4-grid{
-display: grid;
 
-
-}
 .section-4 h1{
     font-size: 50px;
     font-weight: bold;
@@ -222,11 +219,92 @@ display: grid;
     margin-bottom: 120px;
 
 }
-
-.section-4-grid img{
-    border-radius: 14px;
+.section-4-img{
+    display: flex;
+    justify-content: space-between;
+   
+    margin: auto;
+   
+    
+    
 }
-.pic-3{
+
+
+
+.pic-1{
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid #F5F8FF;
     
    
+}
+   
+.pic-2{
+    background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 30vw;
+    border: 2px solid #F5F8FF;
+}
+.pic-3{
+    background-image: url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     
+     width: 50vw;
+     height: 64vh;
+     
+}
+
+
+.pic-1-2-div h2{
+   color: white;
+   font-weight: 700;
+   font-size: 20px;
+   font-family: Noto Serif;
+ 
+  
+   
+}
+.pic-1-2-div h3{
+    color: white;
+    font-weight: 600;
+    font-family: Inter;
+   
+}
+.pic-1, .pic-2, .pic-3{
+    border-radius: 14px;
+    
+    
+}
+.pic-1 h2{
+     margin-top: 50px;
+  margin-bottom: 10px;
+}
+ .pic-2 h2{
+      margin-top: 50px;
+  margin-bottom: 10px;
+ }
+.pic-3 h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: Noto Serif;
+    margin-top: 150px;
+    margin-bottom: 5px;
+    
+}
+.pic-3 h3{
+     font-size: 28px;
+    font-weight: 600;
+    color: white;
+    font-family: Inter;
 }
