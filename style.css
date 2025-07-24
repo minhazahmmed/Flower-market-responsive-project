@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F8FF;
+}
+header{
+   
+}
+img{
+    width:100%;
+}
+.inter{
+    font-family: Inter;
+}
+.noto-serif{
+    font-family: Noto Serif;
+}
+.orange{
+    color: #E95A08;
+    font-weight: 700;
+}
+.gray{
+    color: #00000050;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.nav-items{
+    display: flex;
+    
+
+}
+.nav-items ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: ;
+    
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    
+}
+.cart-and-text{
+    display: flex;
+    gap: 5px;
+}
+
+/* Section-1 design start */
