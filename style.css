@@ -95,4 +95,65 @@ img{
 /* Section-1 design end */
 
 /* section-2 design start */
+.btn-class{
+    background-color: #E95A08;
+    color: white;
+    font-family: Inter;
+    padding: 11px 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 93%;
+    
+}
 
+.section-2{
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+
+.section-2-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+}
+
+.grid-img{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.section-2-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.section-2-text p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.grid-card{
+    margin-bottom: 30px;
+}
+.grid-card button{
+margin-top: 20px;
+}
+
+.flower-name{
+    font-weight: 500;
+    color: #111111;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.flower-price{
+font-weight: 700;
+color: #111111;
+font-size: 22px;
+}
+
+/* Section-2 design end */
+
+/* Section-3 design start */
