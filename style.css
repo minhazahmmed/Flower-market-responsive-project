@@ -169,6 +169,7 @@ font-size: 22px;
 }
 .section-3-img{
     display: flex;
+    width: 50%;
 }
 .pic{
   height: 80%;
@@ -180,11 +181,13 @@ font-size: 22px;
     height: 40%;
     margin-left: -150px;
     margin-top: -110px;
+    filter: drop-shadow(4px 9px 2px #00000025);
     
 }
 
 .section-3-text{
     align-items: center;
+    width: 50%;
 }
 .section-3-text ul{
     font-size: 22px;
@@ -201,110 +204,111 @@ font-size: 22px;
 /* section-3 design end */
 
 /* section-4 design start */
+
 .section-4{
+   
     max-width: 1140px;
-    margin:auto;
+    margin: auto;
     text-align: center;
-    margin-bottom: 120px;
+}
+.image-container{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 28px;
+    align-items: center;
+}
+.left-container{
+    width: 32.193%;
+    
+}
+.right-container{
+    width: 67.807%;
+}
+.first-pic{
+    position: relative;
+    margin-bottom: 30px;
+   
+}
+.first-pic img{
+    border-radius: 14px;
+    filter: brightness(60%);
+}
+.first-text{
+    position: absolute;
+    bottom: 38%;
+    left: 19%;
+}
+.second-pic img{
+    border-radius: 14px;
+    filter: brightness(55%);
+}
+.second-pic{
+    position: relative;
+  
+}
+.second-text{
+    position: absolute;
+    bottom: 42%;
+    left: 24%;
+}
+.first-text h2, .second-pic h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.left-container a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Inter;
+    color: white;
+}
+.right-container{
+    position: relative;
+   
+}
+.third-text{
+    position: absolute;
+    bottom: 40%;
+    left: 23%;
+}
+
+.right-container img{
+    border-radius: 22px;
+    filter: brightness(60%);
+}
+.third-text h2{
+       font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+   
+}
+.third-text a{
+     font-size: 28px;
+    font-weight: 600;
+    font-family: Inter;
+    color: white;
 }
 
 .section-4 h1{
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 16px;
-
 }
 .section-4 p{
-    font-size: 22px;
-    margin-bottom: 120px;
-
-}
-.section-4-img{
-    display: flex;
-    justify-content: space-between;
-   
+    max-width: 888px;
     margin: auto;
-   
-    
-    
+    font-size:22px;
+    margin-bottom: 100px;
+}
+.section-4{
+    margin-bottom: 120px;
 }
 
-
-
-.pic-1{
-    background-image: url(assets/deal-bloom.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 25px;
-    width: 30vw;
-    height: 30vh;
-    border: 1px solid #F5F8FF;
-    
-   
-}
-   
-.pic-2{
-    background-image: url(assets/deal-ana.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 30vh;
-    width: 30vw;
-    border: 2px solid #F5F8FF;
-}
-.pic-3{
-    background-image: url(assets/deal-zabo.png);
-    background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
-     
-     width: 50vw;
-     height: 64vh;
-     
-}
-
-
-.pic-1-2-div h2{
-   color: white;
-   font-weight: 700;
-   font-size: 20px;
-   font-family: Noto Serif;
- 
-  
-   
-}
-.pic-1-2-div h3{
-    color: white;
-    font-weight: 600;
-    font-family: Inter;
-   
-}
-.pic-1, .pic-2, .pic-3{
-    border-radius: 14px;
-    
-    
-}
-.pic-1 h2{
-     margin-top: 50px;
-  margin-bottom: 10px;
-}
- .pic-2 h2{
-      margin-top: 50px;
-  margin-bottom: 10px;
- }
-.pic-3 h2{
-    font-size: 40px;
-    font-weight: 700;
-    color: white;
-    font-family: Noto Serif;
-    margin-top: 150px;
-    margin-bottom: 5px;
-    
-}
-.pic-3 h3{
-     font-size: 28px;
-    font-weight: 600;
-    color: white;
-    font-family: Inter;
-}
+/* Section-4 design end */
