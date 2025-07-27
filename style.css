@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    min-height: 100vh;
     background-color: #F5F8FF;
     margin-top: 10px;
 }
@@ -329,13 +330,13 @@ font-size: 22px;
 
 /* Section-5 design start */
 .section-5{
-    max-width: 100%;
+    width: 100%;
    
    
 }
 .section-5-div{
     background-image: url(assets/news-letter-bg.png);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
    display: flex;
    flex-direction: column;
@@ -361,9 +362,7 @@ font-size: 22px;
 }
 
 .section-5-div button{
-     background-color: #E95A08;
-   
-  
+    background-color: #E95A08;
     padding: 8px 50px;
     border: none;
     font-size: 16px;
@@ -394,7 +393,7 @@ footer{
 .footer-section{
     display: flex;
     justify-content: space-between;
-    
+     
     align-items: start;
     max-width: 1120px;
     margin: auto;
@@ -412,18 +411,18 @@ footer{
 }
 .link{
     list-style: none;
-   
+    
 }
 
 
 .list-items li{
     list-style: none;
-   
+  
     font-size: 16px;
     font-family: Inter;
     margin-bottom: 32px;
 }
-.list-items li.blog,
+.list-items li.contact,
 .list-items li.help{
     margin-bottom: 0px;
 }
