@@ -329,19 +329,19 @@ font-size: 22px;
 /* Section-4 design end */
 
 /* Section-5 design start */
-.section-5{
-    width: 100%;
-   
-   
-}
+
 .section-5-div{
+
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
     background-image: url(assets/news-letter-bg.png);
     background-size: auto;
     background-repeat: no-repeat;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   height: 100vh;
+   height: 533px;
    text-align: center;
    
 }
