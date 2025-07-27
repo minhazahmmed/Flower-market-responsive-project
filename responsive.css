@@ -1,0 +1,187 @@
+/* Mobile screen (from 384px to 768px) */
+@media screen and (max-width:768px){
+*{
+   margin-left: 3px;
+    margin-right: 3px;
+    
+}
+.mobile-nav{
+    display: none;
+}
+.navbar img{
+    width: 75%;
+
+}
+
+.section-1 {
+    margin-bottom: 60px;
+    flex-direction: column-reverse;
+}
+.section-1-text{
+    width: 100%;
+  
+}
+.section-1-img{
+    width: 100%;
+   
+ 
+}
+.section-1 h1{
+    font-size: 24px;
+    margin-top:28px;
+}
+.section-1-text p{
+    font-size: 14px;
+}
+.section-2{
+    margin-bottom: 40px;
+}
+.section-2-text h1{
+    font-size: 24px;
+    margin-bottom: 16px;
+   
+}
+.section-2-text p{
+    font-size: 14px;
+    
+}
+.section-2-grid{
+ gap: 15px;
+    grid-template-columns: repeat(2, 1fr) ;
+}
+.grid-img{
+    padding: 0px;
+    
+    
+}
+.flower-name{
+   
+    font-size: 16px;
+    
+}
+.flower-price{
+
+font-size: 16px;
+}
+    .btn-class {
+       padding: 10px 0px;
+      font-size: 15px;
+       }
+
+    .section-3{
+    flex-direction: column;
+    margin-bottom: 70px;
+   
+}
+.section-3-img{
+  text-align: center;
+    width: 100%;
+}
+.badge{
+    display: none;
+}
+.section-3-text h1{
+    font-size: 24px;
+    
+}
+.section-3-text{
+    margin-top: -18px;
+    width: 100%;
+}
+   
+.section-3-text li{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.section-4 h1{
+    font-size: 24px;
+    
+
+}
+.section-4 p{
+    
+    font-size:14px;
+    
+}
+
+/* section 4 */
+.image-container {
+  flex-direction: column;
+  
+}
+
+
+.left-container{
+    width: 100%
+    
+}
+.right-container{
+    width: 100%
+}
+.first-pic{
+    position: relative;
+    margin-bottom: 30px;
+   
+}
+.first-pic img{
+    border-radius: 14px;
+    filter: brightness(60%);
+}
+.first-text{
+    position: absolute;
+    bottom: 40%;
+    left: 23%;
+}
+.second-pic img{
+    border-radius: 14px;
+    filter: brightness(55%);
+}
+.second-pic{
+    position: relative;
+  
+}
+.second-text{
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+}
+.first-text h2, .second-pic h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.left-container a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Inter;
+    color: white;
+}
+.right-container{
+    position: relative;
+   
+}
+.third-text{
+    position: absolute;
+    bottom: 38%;
+    left: 25%;
+}
+
+.right-container img{
+    border-radius: 22px;
+    filter: brightness(60%);
+}
+.third-text h2{
+       font-size: 20px;
+   
+   
+}
+.third-text a{
+     font-size: 16px;
+    
+}
+
+}
