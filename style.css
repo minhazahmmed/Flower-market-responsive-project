@@ -5,6 +5,7 @@
 }
 body{
     background-color: #F5F8FF;
+    margin-top: 10px;
 }
 
 
@@ -55,6 +56,15 @@ img{
     color: black;
     
 }
+.nav-items a.home{
+    font-weight: 700;
+}
+.nav-items a.shop,
+.nav-items a.about {
+
+    color: #8987A1;
+}
+
 .cart-and-text{
     display: flex;
     gap: 5px;
@@ -81,6 +91,7 @@ img{
 }
 .section-1 h1{
     font-size: 65px;
+    margin-bottom: 13px;
 }
 .section-1-text p{
     font-size: 22px;
@@ -317,7 +328,7 @@ font-size: 22px;
 .section-5{
     max-width: 100%;
    
-    margin-bottom: 120px;
+   
 }
 .section-5-div{
     background-image: url(assets/news-letter-bg.png);
@@ -373,3 +384,71 @@ font-size: 22px;
 
 /* Footer part design start */
 
+footer{
+  background-color: white;
+    
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: start;
+    max-width: 1120px;
+    margin: auto;
+    padding: 50px 0px;
+     
+    
+}
+.description{
+   
+    width: 31.160%;
+}
+.description p{
+    font-size: 22px;
+
+}
+.link{
+    list-style: none;
+   
+}
+
+
+.list-items li{
+    list-style: none;
+   
+    font-size: 16px;
+    font-family: Inter;
+    margin-bottom: 32px;
+}
+.list-items li.blog,
+.list-items li.help{
+    margin-bottom: 0px;
+}
+
+.list-items a{
+    text-decoration: none;
+    color: #6B7280;
+    
+}
+
+.description img{
+    width: 35%;
+    margin-bottom: 16px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.social a{
+    margin-right:32px;
+}
+.twitter{
+    padding: 9px;
+}
+.social a.youtube {
+  margin-right: 0;
+}
+
+/* Footer part design end */
