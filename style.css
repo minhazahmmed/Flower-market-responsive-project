@@ -336,7 +336,8 @@ font-size: 22px;
     margin: auto;
    
     background-image: url(assets/news-letter-bg.png);
-    background-size: auto;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
    display: flex;
    flex-direction: column;
